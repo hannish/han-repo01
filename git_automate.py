@@ -20,7 +20,7 @@ def gitCommit(commitMessage, repoDir):
     return 
 
 def gitPush(repoDir):
-    cmd = 'git push '
+    cmd = 'git push origin master'
     pipe = subprocess.Popen(cmd, shell=True, cwd=repoDir,stdout = subprocess.PIPE,stderr = subprocess.PIPE )
     (out, error) = pipe.communicate()
     pipe.wait()
