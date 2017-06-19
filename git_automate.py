@@ -20,7 +20,7 @@ def gitCommit(commitMessage, repoDir):
     return 
 
 def gitPush(repoDir):
-    cmd = 'git push -u origin master'
+    cmd = 'git push '
     pipe = subprocess.Popen(cmd, shell=True, cwd=repoDir,stdout = subprocess.PIPE,stderr = subprocess.PIPE )
     (out, error) = pipe.communicate()
     pipe.wait()
@@ -28,7 +28,7 @@ def gitPush(repoDir):
 
 temp=time.localtime(time.time())
 uploaddate= str(temp[0])+'_'+str(temp[1])+'_'+str(temp[2])+'_'+str(temp[3])+'_'+str(temp[4])
-repoDir='/Users/jahmedhannish/REPO/personal_git_repo/' # your git repository.
+repoDir='/Users/jahmedhannish/REPO/personal_git_repo' # your git repository.
 
 gitAdd('.',repoDir )
 gitCommit(uploaddate, repoDir)

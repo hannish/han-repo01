@@ -1,0 +1,12 @@
+OrgName, SpaceName, SpaceMemoryUsed, OrgMemoryQuota, AppsDeployed, AppsRunning, AppInstancesDeployed, AppInstancesRunning
+POA_West, sandbox, 3104, 614400, 4, 4, 4, 4
+POA_West, qa, 46080, 614400, 27, 26, 30, 28
+POA_West, sec, 40896, 614400, 26, 25, 29, 28
+POA_West, prod, 48640, 614400, 25, 23, 29, 27
+POA_West, uat, 59776, 614400, 34, 30, 40, 35
+POA_West, sec1, 85952, 614400, 36, 35, 44, 43
+Oil&Gas_Product_Demo, dev-apm-current-sbx, 10752, 307200, 4, 4, 5, 5
+Oil&Gas_Product_Demo, prod-apm-current-sbx, 10240, 307200, 3, 3, 4, 4
+Oil&Gas_Product_Demo, dev-ogd-current, 54400, 307200, 36, 36, 37, 37
+Oil&Gas_Product_Demo, prod-ogd-current, 54784, 307200, 35, 35, 36, 36
+
